@@ -26,7 +26,7 @@ Portando avanti la mia ricerca è nata una domanda alle quali tenevo a risponder
 
 Prima di rispondere a questa domanda però andiamo ad osservare quelle che sono le statistiche, dati alla mano, di questi Gratta e Vinci. 
 
-![Tabella medie Gruppo](images/WsfVl-media-per-gruppo-)
+![Tabella medie Gruppo](images/WsfVl-media-per-gruppo-.png)
 
 Dalla tabella vediamo che se consideriamo la media tra tutti i gratta e vinci disponibili abbiamo una percentuale di vittoria del ≈13.5% con una perdita percentuale sul costo del biglietto (`(valore atteso - costo) / costo`) pari a ≈-28.5%. 
 
@@ -71,11 +71,11 @@ Ora è il momento di concentrarsi sull’analisi della correlazione tra le carat
 
 Per prima cosa andiamo a vedere graficamente queste correlazioni tra tutte le caratteristiche considerate per poi andare a valutare nello specifico alcuni dati interessanti. 
 
-![Matrice di Correlazione](attachment:cfa04c77-d0ba-4e2b-b031-963604e04734:image.png)
+![Matrice di Correlazione](images/image(4).png)
 
 Matrice di Correlazione
 
-![Matrice di Determinazione](attachment:be000a0b-ad63-4814-9587-54eb2a829dba:image.png)
+![Matrice di Determinazione](images/image(5).png)
 
 Matrice di Determinazione
 
@@ -83,11 +83,11 @@ Anche dai due grafici heatmap possiamo notaro quanto detto fin ora, infatti noti
 
 Lo stesso possiamo vedere con la % Vittoria, in questo caso avremo una correlazione meno marcata, 0.59, ma comunque rilevante. 
 
-![Retta di Regressione & Grafico a Dispersione Costo / Perdita %](attachment:ddc52db4-4440-4532-8c84-d9f24e0d5b9f:image.png)
+![Retta di Regressione & Grafico a Dispersione Costo / Perdita %](images/image(6).png)
 
 Retta di Regressione & Grafico a Dispersione Costo / Perdita %
 
-![Retta di Regressione & Grafico a Dispersione Costo / % Vittoria](attachment:68dfe3f4-fa27-4a16-9ea3-af63047015dd:image.png)
+![Retta di Regressione & Grafico a Dispersione Costo / % Vittoria](images/image(7).png)
 
 Retta di Regressione & Grafico a Dispersione Costo / % Vittoria
 
@@ -95,12 +95,12 @@ Osservando la **matrice di correlazione** si possono notare anche altre correlaz
 
 1.  **Costo & Moltiplicatore Max**: tra queste due categorie c’è una forte correlazione positiva, pari a 0.72. Questo ci indica che all’aumentare del costo del biglietto aumenta anche aumenta anche la “leva”. Giocando quindi tagli più elevati possiamo aspettare di vincere, in proporzione al costo del biglietto, potenzialmente più soldi (*inteso come vincita massima*). 
     
-    ![image.png](attachment:ed6fa54c-5919-4583-8a35-2909640d3ed6:image.png)
+    WsfVl-media-per-gruppo-
     
 2. **Costo & Somma dei Biglietti**: questa volta abbiamo un esempio di due categorie negativamente correlate, con un valore di -0.33. Perciò possiamo affermare che all’aumentare del costo del biglietto diminuiscono i biglietti stampati dallo stato (*ma questo lo vedremo meglio in seguito*)
 3. **Perdita % e Moltiplicatore Max**: in questo caso si verifica una situazione che ci potevamo aspettare, conoscendo già la correlazione tra Costo e Perdita e Costo e moltiplicatore potevamo già dedurre che all’aumentare del Moltiplicatore Max diminuisce la Perdita%. Ora sappiamo anche il valore di questa correlazione che è pari a 0.73 (*o -0.73 se consideriamo la perdita in valore assoluto*)
     
-    ![image.png](attachment:ed12a6bb-5f80-4959-94e5-218a5545ce06:image.png)
+    ![Costo & Moltiplicatore Max](images/image(8).png)
     
 
 Arrivati a questo punto è il momento di dire qualcosa in più rispetto alla nostra domanda iniziale. 
@@ -115,13 +115,13 @@ Ragionando in questo senso potrebbe sembrare che lo Stato vada effettivamente a 
 
 Questa era però una conclusione troppo superficiale, pertanto ho deciso di approfondire ulteriormente la mia ricerca. Sono quindi andato a rappresentare graficamente la distribuzione dei biglietti stampati in base al costo. 
 
-![image.png](attachment:5975c741-b88a-4549-8ed1-f74565483a31:image.png)
+![Distribuzione Biglietti Venduti](images/image(9).png)
 
 Notiamo chiaramente come il taglio più diffuso in assoluto sia quella da 5€ seguito poi dai tagli di 3€, 10€ e 2€. 
 
 Riguardando la tabella iniziale ci accorgiamo di come il taglio più diffuso abbiamo caratteristiche pressoché identiche alla media, come si può osservare dalla tabella:
 
-![image.png](attachment:85ba9e0e-aaa3-4203-9199-334413aa961d:image.png)
+![Tabella](images/image(10).png)
 
 Se invece osserviamo gli altri tagli diffusi notiamo come i tagli da 2/3€, hanno caratteristiche peggiori rispetto alla media, cosa che potevamo già dedurre dall’analisi della correlazione vista in precedenza. 
 
@@ -147,7 +147,7 @@ Prima di questa digressione stavamo valutando la scelta di prediligere i Gratta&
         
     - **Moltiplicatore Max**: un altro valore che una persona che vuole “*diventare ricca”* dovrebbe cercare di massimizzare è il Moltiplicatore Max. Andiamo quindi ad osservare i dati per vedere quali sono i gruppi che rispettano questa richiesta:
         
-        ![image.png](attachment:19296133-4c5a-4b3b-b862-77b9a5498836:image.png)
+        ![Tabella Moltiplicatore](images/image(11).png)
         
         Dalla tabella è chiaro riscontare che i tagli “*migliori*” sotto questo aspetto sono quelli da 20 e 25.
         
@@ -158,7 +158,7 @@ Dalle ultime valutazioni effettuate ci accorgiamo di come una persona in base al
 
 Oppure una persona potrebbe essere portata ad acquistare i biglietti che presentano le caratteristiche migliori in termini di Perdita %, % Vittoria oppure Moltiplicatore Max, e questi sono i Gratta&Vinci da 15, 20 oppure 25€, che però riosservando ancora una volta il grafico risultano essere i meno venduti. 
 
-![image.png](attachment:b353cc69-9adc-4092-a965-ac9f14a26d94:image.png)
+![Distribuzione Biglietti Venduti](images/image(9).png)
 
 Il taglio da 5€ si rivela quindi essere il più diffuso senza spiccare in nessuna delle caratteristiche, solamente rispecchiando la media tra i pessimi tagli piccoli e i *meno negativi* tagli grandi. E a meno che i 5€ non siano la cifra esatta per la quale una persona è portata a non accettare maggiori perdite (*in valore assoluto ma non in percentuale*) in cambio di migliori caratteristiche la scelta di comprare un gratta e vinci da 5€ si rivela essere totalmente insensata, se non per seguire la moda nell’acquistare i nomi più popolari di questo (*pessimo, aggiungo io*) gioco. 
 
