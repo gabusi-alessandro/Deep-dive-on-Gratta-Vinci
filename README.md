@@ -71,11 +71,11 @@ Ora è il momento di concentrarsi sull’analisi della correlazione tra le carat
 
 Per prima cosa andiamo a vedere graficamente queste correlazioni tra tutte le caratteristiche considerate per poi andare a valutare nello specifico alcuni dati interessanti. 
 
-![Matrice di Correlazione](images/image(4).png)
+![Matrice di Correlazione](images/image(12).png)
 
 Matrice di Correlazione
 
-![Matrice di Determinazione](images/image(5).png)
+![Matrice di Determinazione](images/image(4).png)
 
 Matrice di Determinazione
 
@@ -83,11 +83,11 @@ Anche dai due grafici heatmap possiamo notaro quanto detto fin ora, infatti noti
 
 Lo stesso possiamo vedere con la % Vittoria, in questo caso avremo una correlazione meno marcata, 0.59, ma comunque rilevante. 
 
-![Retta di Regressione & Grafico a Dispersione Costo / Perdita %](images/image(6).png)
+![Retta di Regressione & Grafico a Dispersione Costo / Perdita %](images/image(5).png)
 
 Retta di Regressione & Grafico a Dispersione Costo / Perdita %
 
-![Retta di Regressione & Grafico a Dispersione Costo / % Vittoria](images/image(7).png)
+![Retta di Regressione & Grafico a Dispersione Costo / % Vittoria](images/image(6).png)
 
 Retta di Regressione & Grafico a Dispersione Costo / % Vittoria
 
@@ -95,7 +95,7 @@ Osservando la **matrice di correlazione** si possono notare anche altre correlaz
 
 1.  **Costo & Moltiplicatore Max**: tra queste due categorie c’è una forte correlazione positiva, pari a 0.72. Questo ci indica che all’aumentare del costo del biglietto aumenta anche aumenta anche la “leva”. Giocando quindi tagli più elevati possiamo aspettare di vincere, in proporzione al costo del biglietto, potenzialmente più soldi (*inteso come vincita massima*). 
     
-    WsfVl-media-per-gruppo-
+    ![Retta Regressione](images/image(7).png)
     
 2. **Costo & Somma dei Biglietti**: questa volta abbiamo un esempio di due categorie negativamente correlate, con un valore di -0.33. Perciò possiamo affermare che all’aumentare del costo del biglietto diminuiscono i biglietti stampati dallo stato (*ma questo lo vedremo meglio in seguito*)
 3. **Perdita % e Moltiplicatore Max**: in questo caso si verifica una situazione che ci potevamo aspettare, conoscendo già la correlazione tra Costo e Perdita e Costo e moltiplicatore potevamo già dedurre che all’aumentare del Moltiplicatore Max diminuisce la Perdita%. Ora sappiamo anche il valore di questa correlazione che è pari a 0.73 (*o -0.73 se consideriamo la perdita in valore assoluto*)
