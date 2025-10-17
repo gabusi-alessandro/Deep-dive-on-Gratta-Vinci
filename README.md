@@ -6,11 +6,11 @@ Prima di iniziare la nostra analisi volevo riportare alcuni dati più generici s
 
 Nel 2024 sono stati 157 i miliardi di euro spesi dagli italiani nel gioco d’azzardo, una cifra in crescita rispetto ai 150 miliardi del 2023 e che purtroppo è prevista ancora al rialzo per il 2025 con una stima di 160 miliardi spesi. 
 
-![image.png](attachment:0262faff-34a7-47fc-b014-ae4ca02ce2f9:image.png)
+![Spese Gioco D'azzardo](images/image.png)
 
 Per dare una misura a questi soldi spesi andiamo a confrontarli con altre spese, che risultano molto di più di valore ma purtroppo anche molto inferiori rispetto a quelle per il gioco d’azzardo. Infatti le spese nel gioco hanno superato di 20 miliardi le spese per la sanità nel 2024, e sono quasi il triplo delle spese per l’istruzione. 
 
-![Spese Gioco D'azzardo](images/image.png)
+![Confronto Spese Gioco-Educazione-Sanità](images/image(1).png)
 
 Viene poi fatto notare come il gioco d’azzardo, nel 2024, ha prodotto 9.2 miliardi di gettito erariale.
 
@@ -26,7 +26,7 @@ Portando avanti la mia ricerca è nata una domanda alle quali tenevo a risponder
 
 Prima di rispondere a questa domanda però andiamo ad osservare quelle che sono le statistiche, dati alla mano, di questi Gratta e Vinci. 
 
-![WsfVl-media-per-gruppo (3).png](attachment:bcdd1a17-dc77-48a9-9ebf-10d646d0c951:WsfVl-media-per-gruppo_(3).png)
+![Tabella medie Gruppo](images/image(2).png)
 
 Dalla tabella vediamo che se consideriamo la media tra tutti i gratta e vinci disponibili abbiamo una percentuale di vittoria del ≈13.5% con una perdita percentuale sul costo del biglietto (`(valore atteso - costo) / costo`) pari a ≈-28.5%. 
 
@@ -42,9 +42,9 @@ Possiamo vedere la stessa distribuzione anche per la perdita percentuale con val
 
 </aside>
 
-![image.png](attachment:1646c037-1861-4f5d-b4ae-a0e4a8678883:image.png)
+![%Vittoria](images/image(3).png)
 
-![image.png](attachment:33e9925b-52d6-4f3c-8d5b-dd4008f4016d:image.png)
+![Perdita %](images/image(4).png)
 
 Per andare a quantificare questa distorsione ho calcolato o il **rapporto di correlazione** (η²), un indice normalizzato (0 ≤ η² ≤ 1) che misura la dipendenza in media. In questo modo possiamo avere una visione quantitativa oltre che grafica di quella che è la dipendenza tra il gruppo (*costo del biglietto*) e la percentuale di vittoria,  o la perdita percentuale. 
 
