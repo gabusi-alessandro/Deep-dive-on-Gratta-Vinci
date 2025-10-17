@@ -10,7 +10,7 @@ Nel 2024 sono stati 157 i miliardi di euro spesi dagli italiani nel gioco d’az
 
 Per dare una misura a questi soldi spesi andiamo a confrontarli con altre spese, che risultano molto di più di valore ma purtroppo anche molto inferiori rispetto a quelle per il gioco d’azzardo. Infatti le spese nel gioco hanno superato di 20 miliardi le spese per la sanità nel 2024, e sono quasi il triplo delle spese per l’istruzione. 
 
-![image.png](attachment:0f4987e8-9de9-44b3-91c4-efc1b1f10fa7:image.png)
+![Spese Gioco D'azzardo](images/image)
 
 Viene poi fatto notare come il gioco d’azzardo, nel 2024, ha prodotto 9.2 miliardi di gettito erariale.
 
