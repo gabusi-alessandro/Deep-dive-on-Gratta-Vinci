@@ -26,7 +26,7 @@ Portando avanti la mia ricerca è nata una domanda alle quali tenevo a risponder
 
 Prima di rispondere a questa domanda però andiamo ad osservare quelle che sono le statistiche, dati alla mano, di questi Gratta e Vinci. 
 
-![Tabella medie Gruppo](images/image(2).png)
+![Tabella medie Gruppo](images/WsfVl-media-per-gruppo-)
 
 Dalla tabella vediamo che se consideriamo la media tra tutti i gratta e vinci disponibili abbiamo una percentuale di vittoria del ≈13.5% con una perdita percentuale sul costo del biglietto (`(valore atteso - costo) / costo`) pari a ≈-28.5%. 
 
@@ -42,9 +42,9 @@ Possiamo vedere la stessa distribuzione anche per la perdita percentuale con val
 
 </aside>
 
-![%Vittoria](images/image(3).png)
+![%Vittoria](images/image(2).png)
 
-![Perdita %](images/image(4).png)
+![Perdita %](images/image(3).png)
 
 Per andare a quantificare questa distorsione ho calcolato o il **rapporto di correlazione** (η²), un indice normalizzato (0 ≤ η² ≤ 1) che misura la dipendenza in media. In questo modo possiamo avere una visione quantitativa oltre che grafica di quella che è la dipendenza tra il gruppo (*costo del biglietto*) e la percentuale di vittoria,  o la perdita percentuale. 
 
