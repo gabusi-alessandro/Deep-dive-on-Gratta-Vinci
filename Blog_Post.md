@@ -1,6 +1,6 @@
 # Blog Post
 
-In questo articolo parleremo dei Gratta&Vinci, il più famoso e diffuso gioco d’azzardo off-line giocato dagli Italiani.
+In questo articolo parleremo dei Gratta&Vinci, il più famoso e diffuso gioco d’azzardo offline giocato dagli italiani.
 
 Prima di iniziare la nostra analisi volevo riportare alcuni dati più generici sul gioco d’azzardo, una piaga che, purtroppo, risulta essere sempre più diffusa. 
 
@@ -8,11 +8,11 @@ Nel 2024 sono stati 157 i miliardi di euro spesi dagli italiani nel gioco d’az
 
 ![Spese Gioco D'azzardo](images/image.png)
 
-Per dare una misura a questi soldi spesi andiamo a confrontarli con altre spese, che risultano molto di più di valore ma purtroppo anche molto inferiori rispetto a quelle per il gioco d’azzardo. Infatti le spese nel gioco hanno superato di 20 miliardi le spese per la sanità nel 2024, e sono quasi il triplo delle spese per l’istruzione. 
+Per dare una misura a questi soldi spesi, andiamo a confrontarli con altre spese, che risultano molto di più di valore ma purtroppo anche molto inferiori rispetto a quelle per il gioco d’azzardo. Infatti le spese nel gioco hanno superato di 20 miliardi le spese per la sanità nel 2024, e sono quasi il triplo delle spese per l’istruzione. 
 
 ![Confronto Spese Gioco-Educazione-Sanità](images/image(1).png)
 
-Viene poi fatto notare come il gioco d’azzardo, nel 2024, ha prodotto 9.2 miliardi di gettito erariale.
+Viene poi fatto notare come il gioco d’azzardo, nel 2024, abbia prodotto 9.2 miliardi di gettito erariale.
 
 Per via di questo conflitto di interessi che ha lo stato, tra il benessere dei propri cittadini e le proprie entrate, mi è venuta voglia di fare questa analisi. 
 
@@ -46,7 +46,7 @@ Possiamo vedere la stessa distribuzione anche per la perdita percentuale con val
 
 ![Perdita %](images/image(3).png)
 
-Per andare a quantificare questa distorsione ho calcolato o il **rapporto di correlazione** (η²), un indice normalizzato (0 ≤ η² ≤ 1) che misura la dipendenza in media. In questo modo possiamo avere una visione quantitativa oltre che grafica di quella che è la dipendenza tra il gruppo (*costo del biglietto*) e la percentuale di vittoria,  o la perdita percentuale. 
+Per andare a quantificare questa distorsione ho calcolato il **rapporto di correlazione** (η²), un indice normalizzato (0 ≤ η² ≤ 1) che misura la dipendenza in media. In questo modo possiamo avere una visione quantitativa oltre che grafica di quella che è la dipendenza tra il gruppo (*costo del biglietto*) e la percentuale di vittoria,  o la perdita percentuale. 
 
 *Prima di andare a riportare i valori trovati, volevo descrivere quella che è l’interpretazione del rapporto di correlazione in modo da permettere a tutti di poter pesare i dati che riporterò in seguito.* 
 
@@ -79,7 +79,7 @@ Matrice di Correlazione
 
 Matrice di Determinazione
 
-Anche dai due grafici heatmap possiamo notaro quanto detto fin ora, infatti notiamo una correlazione tra la Perdita % e il Costo pari a 0.8 che indica una forte correlazione, possiamo quindi concludere che all’aumentare del costo diminuisce la Perdita % (*la correlazione è positiva perché anche la Perdita % aumenta, nel senso che assume valori meno negativi*). 
+Anche dai due grafici heatmap possiamo notare quanto detto finora, infatti notiamo una correlazione tra la Perdita % e il Costo pari a 0.8 che indica una forte correlazione, possiamo quindi concludere che all’aumentare del costo diminuisce la Perdita % (*la correlazione è positiva perché anche la Perdita % aumenta, nel senso che assume valori meno negativi*). 
 
 Lo stesso possiamo vedere con la % Vittoria, in questo caso avremo una correlazione meno marcata, 0.59, ma comunque rilevante. 
 
@@ -93,7 +93,7 @@ Retta di Regressione & Grafico a Dispersione Costo / % Vittoria
 
 Osservando la **matrice di correlazione** si possono notare anche altre correlazioni rilevanti che voglio analizzare in maniera più dettagliata: 
 
-1.  **Costo & Moltiplicatore Max**: tra queste due categorie c’è una forte correlazione positiva, pari a 0.72. Questo ci indica che all’aumentare del costo del biglietto aumenta anche aumenta anche la “leva”. Giocando quindi tagli più elevati possiamo aspettare di vincere, in proporzione al costo del biglietto, potenzialmente più soldi (*inteso come vincita massima*). 
+1.  **Costo & Moltiplicatore Max**: tra queste due categorie c’è una forte correlazione positiva, pari a 0.72. Questo ci indica che all’aumentare del costo del biglietto aumenta anche la “leva”. Giocando quindi tagli più elevati possiamo aspettare di vincere, in proporzione al costo del biglietto, potenzialmente più soldi (*inteso come vincita massima*). 
     
     ![Retta Regressione](images/image(7).png)
     
@@ -105,7 +105,7 @@ Osservando la **matrice di correlazione** si possono notare anche altre correlaz
 
 Arrivati a questo punto è il momento di dire qualcosa in più rispetto alla nostra domanda iniziale. 
 
-Grazie alle correlazioni possiamo dire che all’aumentare del costo vengono prodotti sempre meno biglietti (*cor -0.33*). Biglietti che però si rivelano essere quelli con le caratteristiche migliori (*o meno peggiori visto che il valore atteso resta comunque negativo*), infatti i biglietti più costosi sono quelli che manifesta una minore **perdita %**  e una maggiore **leva** rispetto al costo del biglietto. 
+Grazie alle correlazioni possiamo dire che all’aumentare del costo vengono prodotti sempre meno biglietti (*cor -0.33*). Biglietti che però si rivelano essere quelli con le caratteristiche migliori (*o meno peggiori visto che il valore atteso resta comunque negativo*), infatti i biglietti più costosi sono quelli che manifestano una minore **perdita %**  e una maggiore **leva** rispetto al costo del biglietto. 
 
 Ragionando in questo senso potrebbe sembrare che lo Stato vada effettivamente a penalizzare quelli che sono i tagli più piccoli e più prodotti quindi teoricamente più diffusi. 
 
@@ -127,7 +127,7 @@ Se invece osserviamo gli altri tagli diffusi notiamo come i tagli da 2/3€, han
 
 Per quanto riguarda l’altro gruppo molto diffuso invece abbiamo valori leggermente migliori rispetto alla media per la % Vittoria e un discreto miglioramento per la Perdita %, anche questo un fatto che ci potevamo aspettare dalla correlazione analizzata in precedenza.
 
-Grazie a queste osservazioni possiamo dire che lo il Gratta&Vinci più prodotto in assoluto, quello da 5€, ha caratteristiche pressoché identiche alla media. Mentre gli altri tagli più diffusi hanno valori leggermente peggiori (2€ e 3€). 
+Grazie a queste osservazioni possiamo dire che il Gratta&Vinci più prodotto in assoluto, quello da 5€, ha caratteristiche pressoché identiche alla media. Mentre gli altri tagli più diffusi hanno valori leggermente peggiori (2€ e 3€). 
 
 Potrebbe effettivamente sembrare che lo stato vada quindi a “sfruttare” l’ignoranza dei cittadini che consumano in quantità minore i tagli con le caratteristiche migliori, o forse sarebbe meglio dire “*meno peggiori*”. I tagli da 15 e 25€ infatti risultano essere i tagli di gran lunga migliori in termini di % Vittoria, ma sono anche i meno prodotti in assoluto. 
 
@@ -137,7 +137,7 @@ Infatti sembra inspiegabile la scelta di giocare i Gratta&Vinci da 5€. A dire 
 
 Prima di questa digressione stavamo valutando la scelta di prediligere i Gratta&Vinci da 5€ rispetto a tutti gli altri. Per andare a valutarla ho pensato a quelli che potrebbero essere i motivi per cui una persona è portata a giocare, e sono riuscito a trovarne due:
 
-1. **Provare piacere nel giocare**: non capisco il senso di questo, ma magari a qualcuno potrebbe piacere proprio l’azione del grattare il Gratta&Vinci, e in questo una persona con un minimo di senso critico andrebbe a scegliere il Gratta&Vinci meno costoso in assoluto in modo da poter grattare più biglietti possibili spendendo una cifra prestabilità, oppure quello con la minor Perdita % in modo da “sprecare” meno soldi possibili in proporozione alla spesa per soddisfare la propria voglio di gioco. Ma come si può notare dal grafico i biglietti da 0.5€ o 1€ (*meno costosi*) non rientrano tra i più venduti e nemmeno quello con la minore Perdita % (*biglietto da 20€*) vi rientra. 
+1. **Provare piacere nel giocare**: non capisco il senso di questo, ma magari a qualcuno potrebbe piacere proprio l’azione del grattare il Gratta&Vinci, e in questo una persona con un minimo di senso critico andrebbe a scegliere il Gratta&Vinci meno costoso in assoluto in modo da poter grattare più biglietti possibili spendendo una cifra prestabilità, oppure quello con la minor Perdita % in modo da “sprecare” meno soldi possibili in proporzione alla spesa per soddisfare la propria voglia di giocare. Ma come si può notare dal grafico i biglietti da 0.5€ o 1€ (*meno costosi*) non rientrano tra i più venduti e nemmeno quello con la minore Perdita % (*biglietto da 20€*) vi rientra. 
 2. **Cercare di diventare ricco**: quest’altro è un motivo più comprensibile, e credo anche più diffuso, per giocare, ma se questo fosse il vero motivo del giocatore allora questo dovrebbe andare a massimizzare una di queste caratteristiche:
     - **% Vittoria**: non penso di dover spiegare il motivo per cui una persona dovrebbe scegliere di massimizzare questa categoria, se il suo obiettivo fosse appunto quello di vincere.
         
@@ -156,7 +156,7 @@ Prima di questa digressione stavamo valutando la scelta di prediligere i Gratta&
 
 Dalle ultime valutazioni effettuate ci accorgiamo di come una persona in base al suo obiettivo dovrebbe essere portata ad acquistare i biglietti meno costosi (*0.5 / 1€*) per poter acquistare più biglietti possibili, nel caso in cui il suo scopo sia solamente quello di grattare fisicamente il biglietto. 
 
-Oppure una persona potrebbe essere portata ad acquistare i biglietti che presentano le caratteristiche migliori in termini di Perdita %, % Vittoria oppure Moltiplicatore Max, e questi sono i Gratta&Vinci da 15, 20 oppure 25€, che però riosservando ancora una volta il grafico risultano essere i meno venduti. 
+Oppure una persona potrebbe essere portata ad acquistare i biglietti che presentano le caratteristiche migliori in termini di Perdita %, % Vittoria oppure Moltiplicatore Max, e questi sono i Gratta&Vinci da 15, 20 oppure 25€, che però ri-osservando ancora una volta il grafico risultano essere i meno venduti. 
 
 ![Distribuzione Biglietti Venduti](images/image(9).png)
 
