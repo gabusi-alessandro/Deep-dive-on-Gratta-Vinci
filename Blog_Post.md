@@ -160,7 +160,7 @@ Oppure una persona potrebbe essere portata ad acquistare i biglietti che present
 
 ![Distribuzione Biglietti Venduti](images/image(9).png)
 
-Il taglio da 5€ si rivela quindi essere il più diffuso senza spiccare in nessuna delle caratteristiche, solamente rispecchiando la media tra i pessimi tagli piccoli e i *meno negativi* tagli grandi. E a meno che i 5€ non siano la cifra esatta per la quale una persona è portata a non accettare maggiori perdite (*in valore assoluto ma non in percentuale*) in cambio di migliori caratteristiche la scelta di comprare un gratta e vinci da 5€ si rivela essere totalmente insensata, se non per seguire la moda nell’acquistare i nomi più popolari di questo (*pessimo, aggiungo io*) gioco. 
+Il taglio da 5€ si rivela quindi essere il più diffuso senza spiccare in nessuna delle caratteristiche, solamente rispecchiando la media tra i pessimi tagli piccoli e i *meno negativi* tagli grandi. E a meno che i 5€ non siano la cifra esatta per la quale una persona è portata a non accettare maggiori perdite (*in valore assoluto ma non in percentuale*) in cambio di migliori caratteristiche la scelta di comprare un gratta e vinci da 5€ si rivela essere totalmente insensata, se non per seguire la moda nell’acquistare i nomi più popolari di questo gioco. 
 
 ### FONTI
 
